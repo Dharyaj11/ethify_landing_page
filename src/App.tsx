@@ -5,7 +5,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/ethify_landing_page" element={<LandingPage />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>
